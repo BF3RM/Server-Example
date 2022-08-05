@@ -1,0 +1,11 @@
+XP1_001 ConquestAssaultLarge0 1 # Strike at Karkand
+XP1_002 ConquestLarge0 1 # Gulf of Oman
+XP3_Shield ConquestLarge0 1
+XP3_Valley ConquestLarge0 1
+XP4_Parl ConquestLarge0 1
+XP5_001 ConquestLarge0 1 # Operation Riverside
+XP5_003 ConquestLarge0 1 # Kiasar Railroad
+XP5_004 ConquestLarge0 1 # Sabalan Pipeline
+XP5_001 ConquestSmall0 1 # Operation Riverside (small)
+XP5_003 ConquestSmall0 1 # Kiasar Railroad (small)
+XP5_004 ConquestSmall0 1 # Sabalan Pipeline (small)

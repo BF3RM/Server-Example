@@ -1,0 +1,39 @@
+# RM Server Startup.txt Example
+
+# RCON Password
+admin.password "YourRconPWHere"
+# Game Password
+vars.gamePassword "YourGamePWHere"
+
+# Server
+vars.serverName "[BF3:RM] [REGION] YourServerNameHere"
+vars.maxPlayers 80
+vu.serverbanner https://i.imgur.com/B4bCwpq.jpg
+vars.idleTimeout 600
+
+# Teamkilling
+vars.teamKillCountForKick 0
+vars.teamKillValueForKick 2
+vars.teamKillValueIncrease 0.525
+vars.teamKillValueDecreasePerSecond 0.01
+vars.teamKillKickForBan 0
+
+# RM Commands
+RM.setAdmins "Admin1" "Admin2"
+RM.setLightAdmins "LightAdmin1" "LightAdmin2"
+RM.serverInfo "Sample RM Server Info"
+RM.serverLicenseKey YourKeyHere
+RM.ingameBanner https://i.imgur.com/Vth3wBa.jpg
+RM.pingLimitEnable true
+RM.pingLimitInMs 250
+RM.autoPerfEnabled true
+RM.autoPerfMaxPlayers 80
+RM.tempReservedSlotsEnabled true
+RM.tempReservedSlotsRejoinTime 60.0
+RM.defaultPreRoundTime 180
+RM.setAutoBalancer true
+
+
+# Reserved Slots
+reservedSlotsList.add "PlayerName1"
+reservedSlotsList.add "PlayerName2"
