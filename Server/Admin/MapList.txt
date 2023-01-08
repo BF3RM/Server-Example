@@ -1,11 +1,16 @@
-XP1_001 ConquestAssaultLarge0 1 # Strike at Karkand
-XP1_002 ConquestLarge0 1 # Gulf of Oman
-XP3_Shield ConquestLarge0 1
-XP3_Valley ConquestLarge0 1
-XP4_Parl ConquestLarge0 1
-XP5_001 ConquestLarge0 1 # Operation Riverside
-XP5_003 ConquestLarge0 1 # Kiasar Railroad
-XP5_004 ConquestLarge0 1 # Sabalan Pipeline
-XP5_001 ConquestSmall0 1 # Operation Riverside (small)
-XP5_003 ConquestSmall0 1 # Kiasar Railroad (small)
-XP5_004 ConquestSmall0 1 # Sabalan Pipeline (small)
+XP3_Shield "AAS Standard" 1 # Issue 226
+XP3_Shield "SKR Standard" 1
+XP1_001 "AAS Standard" 1 # Strike at Karkand
+XP1_001 "SKR Standard" 1
+XP3_Valley "AAS Standard" 1 # Death Valley
+XP3_Valley "SKR Standard" 1
+XP4_Parl "AAS Standard" 1 # Azadi Palace
+XP4_Parl "SKR Standard" 1
+XP5_003 "AAS Standard" 1 # Kiasar Railroad
+XP5_003 "SKR Standard" 1
+#XP5_001 "AAS Standard" 1 # Operation Riverside
+#XP5_001 "SKR Standard" 1
+XP5_004 "AAS Standard" 1 # Sabalan Pipeline
+XP5_004 "SKR Standard" 1
+XP1_002 "AAS Standard" 1 # Gulf of Oman
+XP1_002 "SKR Standard" 1
