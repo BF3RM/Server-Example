@@ -7,9 +7,9 @@ vars.gamePassword "YourGamePWHere"
 
 # Server
 vars.serverName "[BF3:RM] [REGION] YourServerNameHere"
-vars.maxPlayers 80
+vars.maxPlayers 4
 vu.serverbanner https://i.imgur.com/B4bCwpq.jpg
-vars.idleTimeout 600
+vars.idleTimeout 9999
 
 # Teamkilling
 vars.teamKillCountForKick 0
@@ -19,6 +19,7 @@ vars.teamKillValueDecreasePerSecond 0.01
 vars.teamKillKickForBan 0
 
 # RM Commands
+RM.setDevelopers "InsertBF3SoldiernameHere"
 RM.setAdmins "Admin1" "Admin2"
 RM.setLightAdmins "LightAdmin1" "LightAdmin2"
 RM.serverInfo "Sample RM Server Info"
@@ -26,12 +27,12 @@ RM.serverLicenseKey YourKeyHere
 RM.ingameBanner https://i.imgur.com/Vth3wBa.jpg
 RM.pingLimitEnable true
 RM.pingLimitInMs 250
-RM.autoPerfEnabled true
+RM.autoPerfEnabled false
 RM.autoPerfMaxPlayers 80
 RM.tempReservedSlotsEnabled true
 RM.tempReservedSlotsRejoinTime 60.0
 RM.defaultPreRoundTime 180
-RM.setAutoBalancer true
+RM.setAutoBalancer false
 
 
 # Reserved Slots

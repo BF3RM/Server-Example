@@ -1,5 +1,5 @@
 @echo off
 cd /d %LOCALAPPDATA%\VeniceUnleashed\client
 :main
-vu.exe -server -dedicated -console -debuglog -highResTerrain -headless -skipChecksum 
+vu.exe -server -console -headless -dedicated -debuglog -highResTerrain -skipChecksum -updatebranch dev
 goto :main
