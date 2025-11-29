@@ -1,26 +1,35 @@
+#AAS Layers
+#XP_001 AdvanceAndSecureStd 1 # Strike at Karkand
 #XP1_002 AdvanceAndSecureStd 1 # Gulf of Oman
-#XP1_002 SkirmishStd 1
-#XP1_001 AdvanceAndSecureStd 1 # Strike at Karkand
-#XP1_001 SkirmishStd 1
-#XP1_003 TrainingStd 1 # Sharqi
-#XP1_004 TrainingStd 1 # Wake Island
-#XP5_003 AdvanceAndSecureStd 1 # Kiasar Railroad
-#XP5_003 SkirmishStd 1
-#XP3_Shield AdvanceAndSecureStd 1 # Shield
-#XP3_Shield SkirmishStd 1
-#XP3_Desert TrainingStd 1 # Bandar Desert
-#XP3_Valley AdvanceAndSecureStd 1 # Death Valley
-#XP3_Valley SkirmishStd 1
+#XP1_003 AdvanceAndSecureStd 1 # Sharqi Peninsula
+#XP1_004 AdvanceAndSecureStd 1 # Wake Island
+#XP3_Desert AdvanceAndSecureStd 1 #  Bandar Desert
+#XP3_Shield AdvanceAndSecureStd 6 # Issue 226
+#XP3_Valley AdvanceAndSecureStd 1
 #XP4_Parl AdvanceAndSecureStd 1 # Azadi Palace
-#XP4_Parl SkirmishStd 1
-#XP4_FD TrainingStd 1 # Monolith
-#XP4_Quake TrainingStd 1 # Epicenter
-#XP4_Rubble TrainingStd 1 # Talah Market
+#XP3_Alborz AdvanceAndSecureStd 1 #Alborz Mountains
 #XP5_001 AdvanceAndSecureStd 1 # Operation Riverside
-#XP5_004 AdvanceAndSecureStd 1 # Sabalan Pipeline
-#XP5_004 SkirmishStd 1 
-XP2_Factory TrainingStd 1 # Scrapmetal
-XP2_Palace TrainingStd 1 # Donya Fortress
-XP2_Skybar TrainingStd 1 # Ziba Tower
-XP5_002 TrainingStd 1 # Nebandan Flats
+#XP5_002 AdvanceAndSecureStd 1 # Kandahar
+#XP5_003 AdvanceAndSecureStd 1 # Bay of Gdansk
+#XP5_004 AdvanceAndSecureStd 1 # Chernihivska Oblast Pipeline
 
+#Skirmish Layers
+XP1_001 SkirmishStd 1 # Strike at Karkand
+#XP1_002 SkirmishStd 1 # Gulf of Oman
+#XP1_003 SkirmishStd 1 # Sharqi Peninsula
+#XP1_004 SkirmishStd 1 # Wake Island
+#XP3_Desert SkirmishStd 1 #  Bandar Desert
+#XP3_Shield SkirmishStd 6 # Issue 226
+#XP3_Valley SkirmishStd 1
+#XP4_Parl SkirmishStd 1 # Azadi Palace
+#XP5_001 SkirmishStd 1 # Operation Riverside
+#XP5_002 SkirmishStd 1 # Kandahar
+#XP5_003 SkirmishStd 1 # Bay of Gdansk
+#XP5_004 SkirmishStd 1 # Chernihivska Oblast Pipeline
+
+#Insurgency Layers
+#XP1_001 InsurgencyStd 1 # Strike at Karkand
+#XP1_002 InsurgencyStd 1 # Gulf of Oman
+#XP1_003 InsurgencyStd 1 # Sharqi Peninsula
+#XP3_Desert InsurgencyStd 1 # Bandar Desert
+#XP4_Parl InsurgencyStd 1  # Azadi Palace
