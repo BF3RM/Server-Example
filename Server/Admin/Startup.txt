@@ -7,7 +7,7 @@ vars.gamePassword "YourGamePWHere"
 
 # Server
 vars.serverName "[BF3:RM] [REGION] YourServerNameHere"
-vars.maxPlayers 4
+vars.maxPlayers 80
 vu.serverbanner https://i.imgur.com/B4bCwpq.jpg
 vars.idleTimeout 9999
 
@@ -19,7 +19,7 @@ vars.teamKillValueDecreasePerSecond 0.01
 vars.teamKillKickForBan 0
 
 # RM Commands
-RM.setDevelopers "InsertBF3SoldiernameHere"
+RM.setDevelopers "InsertBF3SoldiernameHere" "InsertBF3SoldiernameHere"
 RM.setAdmins "Admin1" "Admin2"
 RM.setLightAdmins "LightAdmin1" "LightAdmin2"
 RM.serverInfo "Sample RM Server Info"
@@ -29,10 +29,15 @@ RM.pingLimitEnable true
 RM.pingLimitInMs 250
 RM.autoPerfEnabled false
 RM.autoPerfMaxPlayers 80
+RM.minSquadMembersToLock 1 # how many must be in a squad before you can lock
 RM.tempReservedSlotsEnabled true
 RM.tempReservedSlotsRejoinTime 60.0
 RM.defaultPreRoundTime 180
 RM.setAutoBalancer false
+# RM.battleCryLink "" # Ask devs
+RM.preGameTimeForVehicleSquadUnlock 60 # When pregame is less than this time, you can create a vehicle squad
+RM.enableEnemyLocalVoip false # when true enemies can hear you in local
+# RM.vpnProtectionApiKey # Ask devs
 
 
 # Reserved Slots
